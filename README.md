@@ -5,10 +5,10 @@ Follow:
 2. npm start
 3. Open in browser http://localhost:3030/
 4. In src folder there is folder dummy with users.json, use username password from there and login. Few of them are:
-   a) U: Aditya P:aditya@123
-   b) U: Jon P:jon@123
-   c) U:Khyati P:khyati@123
-   d) U:Akanksha P:akanksha@123
+    a) U: Aditya P:aditya@123
+    b) U: Jon P:jon@123
+    c) U:Khyati P:khyati@123
+    d) U:Akanksha P:akanksha@123
    
 5. Enjoy Commenting on post. 
 6. Logout. Then Login with other user and comment again. You will see previous comment also there. Repeat this with 3 4 users after logout.
