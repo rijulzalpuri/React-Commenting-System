@@ -1,0 +1,37 @@
+[
+  {
+    "id": 71104030,
+    "username": "Yogesh",
+    "name": "Yogesh Devgun",
+    "password": "yogesh@123",
+    "img_url": "https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p240x240/20246367_1965989173677732_4946431613768536367_n.jpg?oh=4a42e21c7c0934b33d61649b147404c3&oe=5A1CCA42"
+  },
+  {
+    "id": 71347850,
+    "username": "Aditya",
+    "name": "Aditya Sharma",
+    "password": "aditya@123",
+    "img_url": "https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/c0.0.240.240/p240x240/539676_675043912519536_1998684643_n.jpg?oh=dc99c3c0e72abf01f8a5258c1cc79df7&oe=5A5BC100"
+  },
+  {
+    "id": 71929200,
+    "username": "Akanksha",
+    "name": "Akanksha Bishnoi",
+    "password": "akanksha@123",
+    "img_url": "https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/c47.0.240.240/p240x240/20882532_10213656282388289_6532843411061163524_n.jpg?oh=c2ce67da9abc548723f34fad73a59e82&oe=5A14A02D"
+  },
+  {
+    "id": 71828400,
+    "username": "Khyati",
+    "name": "Khyati Sharma",
+    "password": "khyati@123",
+    "img_url": "https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p240x240/19420653_10208845645838753_7170391745398500639_n.jpg?oh=20df4ea014b7f7fa043cd4a4a764bb4f&oe=5A171158"
+  },
+  {
+    "id": 71898990,
+    "username": "Jon",
+    "name": "Jon Dsouza",
+    "password": "jon@123",
+    "img_url": "https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-1/p240x240/18951375_10100129165413416_6439944502359113689_n.jpg?oh=519293dc64fa4ab530f5d3154f3656ac&oe=5A60EDC0"
+  }
+]

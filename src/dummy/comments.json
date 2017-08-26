@@ -1,0 +1,61 @@
+[
+  {
+    "reply": {
+      "rep_id": "1",
+      "replyData": "Why so serious?",
+      "replyByUser": {
+        "id": "1",
+        "name": "Rijul Zalpuri",
+        "userImg": ""
+      },
+      "replytime": "2016-07-18T21:50:27+02:00",
+      "replyToReply": [
+        {
+          "rep_tor_id": "111",
+          "replyToReplyData": "I will be my lifetime",
+          "replyToReplyByUser": {
+            "id": "2",
+            "name": "Shivangi Sharma",
+            "userImg": ""
+          }
+        },
+        {
+          "rep_tor_id": "111",
+          "replyToReplyData": "Crazy you!",
+          "replyToReplyByUser": {
+            "id": "2",
+            "name": "Hitesh Sharda",
+            "userImg": ""
+          }
+        }
+      ]
+    },
+    "like_count": "2",
+    "edit": false
+  },
+  {
+    "reply": {
+      "rep_id": "1",
+      "replyData": "Relax man!",
+      "replyByUser": {
+        "id": "1",
+        "name": "Akanksha Bishnoi",
+        "userImg": ""
+      },
+      "replytime": "2016-07-18T21:50:27+02:00",
+      "replyToReply": [
+        {
+          "rep_tor_id": "111",
+          "replyToReplyData": "Yo girl!",
+          "replyToReplyByUser": {
+            "id": "2",
+            "name": "Shweta Bajaj",
+            "userImg": ""
+          }
+        }
+      ]
+    },
+    "like_count": "2",
+    "edit": false
+  }
+]

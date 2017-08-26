@@ -1,0 +1,364 @@
+html, body, div, span, applet, object, iframe,
+ blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  background: #fafaff;
+  font-family: Roboto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.post_container {
+  width: 768px;
+  margin: 20px auto;
+  margin-top: 0px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 4px;
+background: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+@media(max-width: 768px) {
+  .post_container {
+    width: 100vw;
+  }
+}
+
+.post {
+  margin: 12px;
+  font-size: 14px;
+}
+
+.comment_container {
+background: rgba(0, 0, 0, 0.69);
+  padding: 12px;
+}
+
+.comment_container input {
+  width: 100%;
+  height: 36px;
+  border-radius: 3px;
+  box-shadow: none;
+  text-decoration: none;
+  border: 1px solid #e5e9f2;
+  padding: 10px 15px;
+}
+
+.comment_container input::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #c0ccda;
+}
+
+.comment_box {
+  margin: 7.5px 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.commentToCom_Container {
+  width: calc(100% - 30px);
+  margin-left: 39px;
+  border-left: 0.9px solid #c0ccda;
+  padding-left: 8px;
+}
+
+.commentToCom_wrapper {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.commentToCom_input input {
+  width: calc(100% - 8px);
+  height: 36px;
+  border-radius: 3px;
+  box-shadow: none;
+  text-decoration: none;
+  border: 1px solid #e5e9f2;
+  padding: 10px 15px;
+}
+
+.commentToCom_input input::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #c0ccda;
+}
+
+.commentToCom_input {
+  width: calc(100% - 30px);
+  margin-left: 39px;
+  border-left: 0.9px solid #c0ccda;
+  padding-left: 8px;
+  margin-top: 7px;
+}
+
+.comment_actions {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.comment_actions span {
+  font-size: 12px;
+  color: #1fbff6;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.comment_actions span.act:hover,
+.comment_username:hover,
+.post_username:hover {
+  text-decoration: underline;
+}
+
+.displ_inlif {
+  display: inline-flex;
+}
+
+.comment_left,
+.comment_left img {
+  height: 34px;
+  width: 34px;
+  border-radius: 17px;
+  border: 1px solid #e5e9f2;
+  margin-right: 8px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.commentToCom_left,
+.commentToCom_left img {
+  height: 26px;
+  width: 26px;
+  border-radius: 13px;
+  border: 1px solid #e5e9f2;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.comment_right {
+  border-bottom: 0.9px solid #c0ccda;
+  width: calc(100% - 36px);
+  padding-bottom: 10px;
+}
+
+.commenttocomment_right {
+  border-bottom: 0.9px solid #c0ccda;
+  width: calc(100% - 46px);
+  padding-bottom: 10px;
+}
+
+.post_username {
+    color: #ffffff;
+    font-weight: 800;
+  cursor: pointer;
+}
+
+.disp_inliFl {
+  display: inline-flex;
+}
+
+.post_update {
+  width: 100%;
+  align-items: center;
+  padding: 12px 12px 0;
+}
+
+.user_image,
+.user_image img {
+  height: 45px;
+  width: 45px;
+  border: 1px solid #c0ccda;
+  cursor: pointer;
+}
+
+.user_details {
+  margin-left: 8px;
+}
+
+.post_location {
+  margin-left: 10px;
+}
+
+.loc_time_container {
+  font-size: 10px;
+}
+
+.comment_text {
+  color: #8492a6;
+  font-size: 13px;
+  margin-top: 3.5px;
+}
+
+.comment_username {
+  color: #8492a6;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+@mixin container($background) {
+  background: $background;
+color: #fff;
+    height: 280px;
+    width: 400px;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 17px;
+}
+
+.signup_container {
+  @include container(rgba(82, 86, 85, 0.67));
+  border-radius: 7%;
+}
+#root{
+  // background-color: antiquewhite;
+  background-repeat: no-repeat;
+    background-image: url(https://www.ukfiet.org/wp-content/uploads/2016/09/Comment_shutterstock_384112114.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    // background: url('https://www.ukfiet.org/wp-content/uploads/2016/09/Comment_shutterstock_384112114.jpg')
+    // background-image: url('https://www.ukfiet.org/wp-content/uploads/2016/09/Comment_shutterstock_384112114.jpg');
+}
+
+.login_container {
+  @include container(#29585D);
+}
+
+.singup_title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+@mixin centering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_inputs {
+  @include centering;
+}
+
+.signup_inputs label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.signup_loginbutton span:first-child {
+  color: #8492ac;
+}
+
+.signup_inputs input {
+  width: 100%;
+}
+
+.signup_title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+
+.signup_loginbutton {
+  float: right;
+  margin-top: 8.5px;
+  font-size: 13px;
+}
+
+.clr {
+  clear: both;
+}
+@mixin button($background) {
+  margin-top: 17px;
+  width: 170px;
+  padding: 9px;
+  border-radius: 5px;
+  text-align: center;
+  background: $background;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.register_button button {
+  @include button(#1C3B3E);
+}
+
+.login_actionbutton button {
+  @include button(#29585D);
+}
+
+.login_actionbutton,
+.register_button {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  @include centering;
+}
+
+.login_button {
+  cursor: pointer;
+}
+
+.error_display {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+
+.logout_button button {
+  background: rgba(0, 0, 0, 0.37);
+  border: none;
+  width: 120px;
+  padding: 6px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.8;
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 20px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.logout_button button:hover {
+  opacity: 1;
+}
+
+.editReply {
+  width: calc(100% - 42px);
+}
